@@ -12,6 +12,7 @@ except KeyError:
     exit(1)
 
 topic = input("What do you want to learn about?\n> ")
+
 system_prompt = f"""
 I want to do some interactive instruction.
 I want you to start explaining the concept of {topic} to me at a 7th grade level.
