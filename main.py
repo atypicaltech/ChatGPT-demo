@@ -3,7 +3,7 @@ import os
 import sys
 
 
-GPT_MODEL = "gpt-3.5-turbo"
+GPT_MODEL = "gpt-4"
 
 try:
     openai.api_key = os.environ['OPENAI_API_KEY']
